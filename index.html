@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>宮崎駿</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'>
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h5, h6 {
+  font-weight: 800;
+}
+
+nav.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(http://www.wallpaperdx.com/images/drawing-moving-castle-full-hd-wallpaper-4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: #3c3216;
+  padding: 100px 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+header.jumbotron hr {
+  max-width: 700px;
+  border: solid 1px #3c3216;
+}
+header.jumbotron h4 {
+  font-weight: 550;
+  font-size: 25px;
+  color: rgba(60, 50, 22, 0.8);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-image: linear-gradient(to right, #4a6962, #70abc6);
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://acephalous.typepad.com/.a/6a00d8341c2df453ef0134880506f5970c-500wi);
+  height: 260px;
+  background-size: cover;
+}
+
+.col-sm-5.img:hover {
+  mix-blend-mode: color-dodge;
+}
+
+.col-sm-7 p {
+  padding: 10px 20px;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  display: none;
+}
+.col-sm-7 h2 {
+  margin-top: 100px;
+  padding: 0px 20px;
+  text-align: center;
+  color: white;
+}
+
+.col-sm-7:hover h2 {
+  display: none;
+}
+.col-sm-7:hover p {
+  display: block;
+}
+
+section#section_about img {
+  width: 102%;
+}
+section#section_about .img_warp {
+  height: 170px;
+  overflow: hidden;
+}
+
+.img_warp:hover {
+  -webkit-filter: grayscale(1);
+}
+
+section#section_video {
+  background-image: linear-gradient(to right, #4a6962, #70abc6);
+}
+section#section_video .col-sm-3 {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+section#section_video .txt {
+  width: 100%;
+  text-align: center;
+  padding: 10px 5px;
+}
+section#section_video .txt a {
+  color: #3c3216;
+}
+section#section_video .col-sm-12 iframe {
+  width: 100%;
+}
+
+section#section_tani {
+  height: 120px;
+  background-color: #b2f3f5;
+  padding: 0px 0px;
+}
+section#section_tani .container .row .b1 {
+  width: 6px;
+  height: 10px;
+  left: 15px;
+  bottom: -110px;
+  background-color: #735335;
+  position: relative;
+  border-radius: 100%;
+  transform: rotate(35deg);
+  animation-name: b11;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+section#section_tani .container .row .b2 {
+  width: 4px;
+  height: 20px;
+  left: 445px;
+  bottom: -90px;
+  background-image: linear-gradient(to top, #357348, #70abc6);
+  position: relative;
+  border-radius: 0px 100% 0% 0px;
+  animation-name: b21;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+section#section_tani .container .row .b3 {
+  width: 4px;
+  height: 30px;
+  left: 750px;
+  bottom: -60px;
+  background-image: linear-gradient(to top, #357348, #70abc6);
+  position: relative;
+  border-radius: 0px 100% 0% 0px;
+  position: relative;
+  animation-name: b31;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+section#section_tani .container .row .b4 {
+  left: 1050px;
+  bottom: -30px;
+  position: relative;
+  animation-name: b41;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+section#section_tani .container .row .b4 .b4_1 {
+  width: 4px;
+  height: 30px;
+  left: 0px;
+  bottom: 0px;
+  background-image: linear-gradient(to top, #357348, #70abc6);
+  position: relative;
+  border-radius: 0px 100% 0% 0px;
+}
+section#section_tani .container .row .b4 .b4_2 {
+  height: 10px;
+  width: 15px;
+  background-image: linear-gradient(to top, #357348, #70abc6);
+  left: -15px;
+  bottom: 35px;
+  border-radius: 0px 100% 0% 10px;
+  position: relative;
+}
+section#section_tani .container .row .b4 .b4_3 {
+  height: 10px;
+  width: 15px;
+  background-image: linear-gradient(to top, #357348, #70abc6);
+  left: -1px;
+  bottom: 50px;
+  border-radius: 0px 100% 0% 10px;
+  position: relative;
+  transform: rotate(90deg);
+}
+section#section_tani .container .row .dodoro {
+  position: relative;
+  left: -100px;
+  bottom: 60px;
+  animation-name: walk;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+section#section_tani .container .row .dodoro .body {
+  width: 60px;
+  height: 70px;
+  background-color: #eaf0f5;
+  position: relative;
+  border-radius: 50% 24px 30% 10px;
+  box-shadow: inset 5px -4px 4px 2px rgba(201, 152, 54, 0.15);
+  left: 100px;
+  bottom: 0px;
+}
+section#section_tani .container .row .dodoro .body .eyeright {
+  background-color: white;
+  border: solid 2px black;
+  width: 15px;
+  height: 20px;
+  position: relative;
+  left: 40px;
+  top: 15px;
+  border-radius: 100%;
+}
+section#section_tani .container .row .dodoro .body .eyeright .eright {
+  background-color: black;
+  border: solid 2px black;
+  width: 5px;
+  height: 10px;
+  position: relative;
+  left: 6px;
+  top: 4px;
+  border-radius: 100%;
+}
+section#section_tani .container .row .dodoro .body .tail {
+  background-color: #eaf0f5;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  left: -20px;
+  top: 20px;
+  border-radius: 50%;
+  transform: rotate(35deg);
+  box-shadow: inset 1px -3px 2px 2px rgba(201, 152, 54, 0.15);
+}
+section#section_tani .container .row .dodoro .top {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+section#section_tani .container .row .dodoro .top .ear1 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 40px 10px;
+  border-color: transparent transparent #eaf0f5 transparent;
+  border-radius: 50px 20px 20px;
+  position: relative;
+  left: 128px;
+  bottom: 103px;
+  transform: rotate(-6deg);
+}
+section#section_tani .container .row .dodoro .top .ear2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 40px 10px;
+  border-color: transparent transparent #eaf0f5 transparent;
+  border-top-right-radius: 3px;
+  position: relative;
+  left: 115px;
+  bottom: 143px;
+  transform: rotate(-18deg);
+}
+
+section#section_ground .container {
+  height: 100px;
+  width: 1350px;
+  background-image: linear-gradient(to top, #735335, #dec77d);
+  position: relative;
+  left: 0px;
+  bottom: 50px;
+}
+
+@keyframes walk {
+  0% {
+    left: -250px;
+    opacity: 0;
+  }
+  10% {
+    left: -105px;
+    opacity: 1;
+  }
+  20% {
+    left: 40px;
+    opacity: 0;
+  }
+  30% {
+    left: 330px;
+    opacity: 1;
+  }
+  40% {
+    left: 475px;
+    opacity: 0;
+  }
+  50% {
+    left: 620px;
+    opacity: 1;
+  }
+  60% {
+    left: 765px;
+    opacity: 0;
+  }
+  70% {
+    left: 910px;
+    opacity: 1;
+  }
+  80% {
+    left: 1055px;
+    opacity: 0;
+  }
+  90% {
+    left: 1200px;
+    opacity: 1;
+  }
+  100% {
+    left: 1200px;
+    opacity: 0;
+  }
+}
+@keyframes b11 {
+  0% {
+    opacity: 0;
+  }
+  9% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes b21 {
+  0% {
+    opacity: 0;
+  }
+  29% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes b31 {
+  0% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes b41 {
+  0% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header"><a class="navbar-brand" href="#">宮崎駿</a></div>
+    <div class="nav navbar-nav navbar-right">
+      <li><a href="#section_ask">引言 INTRO</a></li>
+      <li><a href="#section_about">簡介 ABOUT</a></li>
+      <li><a href="#section_video">影片 VIDEO</a></li>
+      <li><a href=" https://www.orientalsunday.hk/294591/%E6%9C%80%E6%96%B0%E5%A8%9B%E8%81%9E/%E5%AE%AE%E5%B4%8E%E9%A7%BF-%E5%90%89%E5%8D%9C%E5%8A%9B%E5%B7%A5%E4%BD%9C%E5%AE%A4-%E9%9B%BB%E5%BD%B1-ctl02/" target="_blank">宮崎駿 WIKI</a></li>
+    </div>
+  </div>
+</nav>
+<header class="jumbotron">
+  <div class="container">
+    <h1>宮崎駿</h1>
+    <hr/>
+    <h4>我可以接受失敗，但絕對不能接受未奮鬥過的自己</h4>
+  </div>
+</header>
+<section id="section_ask">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 img"></div>
+      <div class="col-sm-7">
+        <p>宮崎駿（日語：宮﨑 駿／みやざき はやお Miyazaki Hayao，1941年1月5日－）是日本動畫師、動畫導演、及漫畫家。畢業於杉並區立永福小學校、杉並區立大宮中學校、東京都立豐多摩高等學校及學習院大學政治經濟學院。大學畢業後踏入動畫製作工作，日後成為日本知名動畫廠吉卜力工作室的核心人物之一。其執導過11部長篇動畫電影，多次宣布退休，2013年9月時是第7次宣布退休，2016年再度復出。現任吉卜力工作室董事、德間紀念動畫文化財團理事長、三鷹市立動畫美術館館長。目前在埼玉縣所澤市居住。</p>
+        <h2>動畫大師宮崎駿</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section_about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>宮崎駿動畫/Introduction</h1>
+        <hr/>
+      </div>
+      <div class="col-sm-4">
+        <div class="img_warp"><a href="http://inmywordz.com/archives/9685" target="_blank"><img src="https://www.travelliker.com.hk/img/upload/img/wallpaper.jpg"/></a></div>
+        <h3>魔法公主</h3>
+        <hr/>
+        <p>《魔法公主》（日語：もののけ姫）是日本吉卜力工作室製作、宮崎駿執導於1997年夏季推出的一部動畫電影。內容描述著在幻想的室町時代裡，一名少年為了找出自己受詛咒的原因而離開家園，之後介入了一場人類與森林神祇兩方的衝突事件。<br>此影片上映成果替吉卜力獲得到新的里程碑，並且曾一度是日本電影史上票房榜首。</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="img_warp"><a href="http://ezvivi2.com/article/171593.asp" target="_blank"><img src="http://www1.pu.edu.tw/~s1021992/201307051504029992959.jpg"/></a></div>
+        <h3>神影少女</h3>
+        <hr/>
+        <p>《神隱少女》（日語：千と千尋の神隠し）是一部由吉卜力工作室製作、宮崎駿擔任導演和劇本，於2001年7月20日上映的日本動畫電影。內容講述一個小女孩誤闖了神靈世界，之後經歷成長的故事。<br>此作品為宮崎駿帶來事業上多項成就，在票房方面於日本國內創下304億日圓收入的記錄，成為目前為止日本史上票房最高的電影。</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="img_warp"><a href="http://inmywordz.com/archives/12873" target="_blank"><img src="https://pic2.zhimg.com/v2-8ec17e1f735e9591ec017a48284cf671_1200x500.jpg"/></a></div>
+        <h3>天空之城</h3>
+        <hr/>
+        <p>《天空之城》（天空の城ラピュタ）是日本吉卜力工作室於1986年8月2日所推出的一部長篇動畫電影，作品的原作、導演、劇本和角色設定皆由宮崎駿來擔任。並為在1985年成立的吉卜力工作室首次公開的劇院作品，和本作品同一天公開上映的另一部宮崎駿作品則是電視動畫《名偵探福爾摩斯》的劇場版「哈德遜夫人人質事件」與「多佛海峽的大空中戰！」</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section_video">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="txt"> <a href="https://www.youtube.com/embed/ibfRb_SNLg0" target="youtube">霍爾的移動城堡</a></div>
+      </div>
+      <div class="col-sm-3">
+        <div class="txt"> <a href="https://www.youtube.com/embed/OpVTwbWUR_0" target="youtube">崖上的波妞</a></div>
+      </div>
+      <div class="col-sm-3">
+        <div class="txt"> <a href="https://www.youtube.com/embed/G7q07dyIsX8" target="youtube">借物少女艾莉緹</a></div>
+      </div>
+      <div class="col-sm-3">
+        <div class="txt"> <a href="https://www.youtube.com/embed/N-uCT3jGEMs" target="youtube">魔女宅急便</a></div>
+      </div>
+      <div class="col-sm-12">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ibfRb_SNLg0" allowfullscreen="" name="youtube"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section_tani">
+  <div class="container">
+    <div class="row">
+      <div class="b1"></div>
+      <div class="b2"></div>
+      <div class="b3"></div>
+      <div class="b4">
+        <div class="b4_1"></div>
+        <div class="b4_2"></div>
+        <div class="b4_3"></div>
+      </div>
+      <div class="b5"></div>
+      <div class="dodoro">
+        <div class="body">
+          <div class="eyeright">
+            <div class="eright"></div>
+          </div>
+          <div class="tail"></div>
+        </div>
+        <div class="top">
+          <div class="ear1"></div>
+          <div class="ear2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section_ground">
+  <div class="container"></div>
+</section>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'></script>
+
+  
+
+</body>
+
+</html>
